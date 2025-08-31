@@ -76,7 +76,7 @@ source venv/bin/activate
   
 Dependencies: pandas, matplotlib, seaborn, nltk, textblob, vaderSentiment
 
-#💻 How to Run
+# 💻 How to Run
 
 **1️⃣ Clean the raw data**
 
@@ -102,7 +102,7 @@ Input: data/processed/cleaned_sentiment.csv
 
 Output: Plots saved in plots/
 
-#📊 Visualizations
+# 📊 Visualizations
 
 **Sentiment Distribution**
 Shows the proportion of positive, neutral, and negative tweets.
