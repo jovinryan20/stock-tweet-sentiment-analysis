@@ -1,4 +1,4 @@
-# **Twitter Sentiment Analysis on Stock-related Tweets** 📊🐦
+# **Twitter Sentiment Analysis on Stock-related Tweets** 📊
 
 
 ### What this project is about
@@ -19,25 +19,41 @@ The idea is to understand market sentiment without diving into price prediction.
 
 ### **📂 Project Structure**
 │
+
 ├── data/
+
 │ ├── raw/ # Original/raw tweet files
+
 │ │ └── tesla_tweets.csv
+
 │ │
 │ └── processed/ # Cleaned & sentiment-labeled files
+
 │ ├── cleaned.csv
+
 │ └── cleaned_sentiment.csv
+
 │
 ├── plots/ # Generated visualizations
+
 │ ├── sentiment_distribution.png
+
 │ ├── compound_scores.png
+
 │ └── average_sentiment_over_time.png
+
 │
 ├── venv/ # Python virtual environment
+
 │
 ├── data_cleaning.py # Script to clean raw tweets
+
 ├── sentiment_analysis.py # Script to analyze sentiment
+
 ├── visualize_sentiment.py # Script to create plots
+
 ├── README.md # Project documentation
+
 └── requirements.txt # Python dependencies
 
 
@@ -46,17 +62,19 @@ The idea is to understand market sentiment without diving into price prediction.
 
 git clone <your-repo-link>
 cd <repo-folder>
+
 Create and activate a virtual environment
 
 python -m venv venv
-# Windows
+### Windows
 venv\Scripts\activate
-# Mac/Linux
+### Mac/Linux
 source venv/bin/activate
 
 **Install dependencies**
 
 - pip install -r requirements.txt
+- 
 Dependencies: pandas, matplotlib, seaborn, nltk, textblob, vaderSentiment
 
 ### 💻 How to Run
@@ -64,6 +82,7 @@ Dependencies: pandas, matplotlib, seaborn, nltk, textblob, vaderSentiment
 **1️⃣ Clean the raw data**
 
 - python data_cleaning.py
+
 Input: data/raw/tesla_tweets.csv
 
 Output: data/processed/cleaned.csv
@@ -71,6 +90,7 @@ Output: data/processed/cleaned.csv
 **2️⃣ Perform sentiment analysis**
 
 - python sentiment_analysis.py
+
 Input: data/processed/cleaned.csv
 
 Output: data/processed/cleaned_sentiment.csv
@@ -78,26 +98,27 @@ Output: data/processed/cleaned_sentiment.csv
 **3️⃣ Create visualizations**
 
 - python visualize_sentiment.py
+
 Input: data/processed/cleaned_sentiment.csv
 
 Output: Plots saved in plots/
 
-**📊 Visualizations**
+###📊 Visualizations
 
 **Sentiment Distribution**
 Shows the proportion of positive, neutral, and negative tweets.
 
-![Sleep Pattern Plot](plots/sentiment_distribution.png)
+<img src="plots/sentiment_distribution.png" alt="Sentiment Distribution" width="400"/>
 
 **Compound Scores** 
 Distribution of Compound Sentiment Scores.
 
-![Sleep Pattern Plot](plots/compound_scores.png)
+<img src="plots/compound_scores.png" alt="compound scores" width="400"/>
 
 **Sentiment Trends Over Time**
 Shows how opinions change over time.
 
-![Sleep Pattern Plot](plots/average_sentiment_over_time.png)
+<img src="plots/average_sentiment_over_time.png" alt="average sentiment" width="400"/>
 
 
 ### 🎯 Highlights
