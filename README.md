@@ -18,36 +18,36 @@ The idea is to understand market sentiment without diving into price prediction.
 
 
 ### **📂 Project Structure**
-│
+
 ├── data/
-│ ├── raw/ # Original/raw tweet files
-│ │ └── tesla_tweets.csv
-│ │
-│ └── processed/ # Cleaned & sentiment-labeled files
-│ ├── cleaned.csv
-│ └── cleaned_sentiment.csv
-│
-├── plots/ # Generated visualizations
-│ ├── sentiment_distribution.png
-│ ├── compound_scores.png
-│ └── average_sentiment_over_time.png
-│
-├── venv/ # Python virtual environment
-│
-├── data_cleaning.py # Script to clean raw tweets
-├── sentiment_analysis.py # Script to analyze sentiment
-├── visualize_sentiment.py # Script to create plots
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+│   ├── raw/                     # Original/raw tweet files
+│   │   └── tesla_tweets.csv
+│   └── processed/               # Cleaned & sentiment-labeled files
+│       ├── cleaned.csv
+│       └── cleaned_sentiment.csv
+├── plots/                       # Generated visualizations
+│   ├── sentiment_distribution.png
+│   ├── compound_scores.png
+│   └── average_sentiment_over_time.png
+├── venv/                        # Python virtual environment
+├── data_cleaning.py             # Script to clean raw tweets
+├── sentiment_analysis.py        # Script to analyze sentiment
+├── visualize_sentiment.py       # Script to create plots
+├── README.md                    # Project documentation
+└── requirements.txt             # Python dependencies
+
 
 
 ### **⚙️ Setup & Installation**
 1. **Clone the repo**
 
-  git clone <your-repo-link>
-  cd <repo-folder>
+ git clone &lt;your-repo-link&gt;
+ 
+ cd &lt;repo-folder&gt;
+
 
 **2. Create and activate a virtual environment**
+
   python -m venv venv
 
 ### Windows
