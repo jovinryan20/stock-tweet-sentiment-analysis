@@ -1,4 +1,4 @@
-<img width="1074" height="209" alt="image" src="https://github.com/user-attachments/assets/1a660230-2a59-49b6-87bd-57887a2da032" /># **Twitter Sentiment Analysis on Stock-related Tweets** 📊
+# **Twitter Sentiment Analysis on Stock-related Tweets** 📊
 
 
 ### What this project is about
