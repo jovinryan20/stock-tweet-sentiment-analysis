@@ -52,7 +52,7 @@ The idea is to understand market sentiment without diving into price prediction.
 📄 requirements.txt # Python dependencies
 
 
-### **⚙️ Setup & Installation**
+# **⚙️ Setup & Installation**
 
 **1. Clone the repo**
 
